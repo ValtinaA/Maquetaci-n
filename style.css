@@ -1,7 +1,7 @@
 .Container {
   display: flex;
-  width: 500px;
-  max-height: 400px;
+  max-width: 100%;
+  max-height: 100vh;
   background-color: aqua;
   gap: 20px;
   padding: 30px;
@@ -10,10 +10,11 @@
 }
 .ContainerA {
   display: flex;
+  width: 97%;
 }
 .Cajon-A {
-  height: 50px;
-  width: 460px;
+  height: 10vh;
+  width: 100%;
   background-color: white;
   margin: 5px;
   border: 2px solid black;
@@ -23,12 +24,14 @@
   align-items: center;
 }
 .ContainerB-G {
+  width: 70%;
   .ContainerBCD {
     display: flex;
+    width: 100%;
   }
   .Cajon-B {
-    height: 100px;
-    width: 100px;
+    height: 30vh;
+    width: 33%;
     background-color: white;
     order: 0;
     margin: 5px;
@@ -39,8 +42,8 @@
     align-items: center;
   }
   .Cajon-C {
-    height: 100px;
-    width: 100px;
+    height: 30vh;
+    width: 33%;
     background-color: white;
     order: 1;
     margin: 5px;
@@ -51,8 +54,8 @@
     align-items: center;
   }
   .Cajon-D {
-    height: 100px;
-    width: 100px;
+    height: 30vh;
+    width: 33%;
     background-color: white;
     order: 2;
     margin: 5px;
@@ -64,10 +67,11 @@
   }
   .ContainerEFG {
     display: flex;
+    width: 100%;
   }
   .Cajon-E {
-    height: 100px;
-    width: 100px;
+    height: 30vh;
+    width: 33%;
     background-color: white;
     order: 4;
     margin: 5px;
@@ -78,8 +82,8 @@
     align-items: center;
   }
   .Cajon-F {
-    height: 100px;
-    width: 100px;
+    height: 30vh;
+    width: 33%;
     background-color: white;
     order: 5;
     margin: 5px;
@@ -90,8 +94,8 @@
     align-items: center;
   }
   .Cajon-G {
-    height: 100px;
-    width: 100px;
+    height: 30vh;
+    width: 33%;
     background-color: white;
     order: 6;
     margin: 5px;
@@ -105,10 +109,12 @@
 
 .ContainerH {
   display: flex;
+  width: 25%;
+  height: 62vh;
 }
 .Cajon-H {
-  height: 220px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
   background-color: white;
   order: 3;
   margin: 5px;
