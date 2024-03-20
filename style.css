@@ -1,0 +1,120 @@
+.Container {
+  display: flex;
+  width: 500px;
+  max-height: 400px;
+  background-color: aqua;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.ContainerA {
+  display: flex;
+}
+.Cajon-A {
+  height: 50px;
+  width: 460px;
+  background-color: white;
+  margin: 5px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ContainerB-G {
+  .ContainerBCD {
+    display: flex;
+  }
+  .Cajon-B {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    order: 0;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Cajon-C {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    order: 1;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Cajon-D {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    order: 2;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .ContainerEFG {
+    display: flex;
+  }
+  .Cajon-E {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    order: 4;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Cajon-F {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    order: 5;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Cajon-G {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    order: 6;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.ContainerH {
+  display: flex;
+}
+.Cajon-H {
+  height: 220px;
+  width: 100px;
+  background-color: white;
+  order: 3;
+  margin: 5px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
